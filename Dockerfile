@@ -1,4 +1,5 @@
-FROM tensorflow/tensorflow:latest-gpu-jupyter
+#FROM tensorflow/tensorflow:latest-gpu-jupyter
+FROM nvcr.io/nvidia/tensorflow:20.12-tf2-py3
 #FROM nvidia/cuda:10.2-runtime AS jupyter-base
 WORKDIR /
 # Install Python and its tools
